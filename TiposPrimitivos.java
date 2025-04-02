@@ -27,8 +27,8 @@ public class TiposPrimitivos {
         System.out.println("Salário: " + salario) ;
         System.out.println("Tentativas de Login: " + tentativas_login ) ;
         System.out.println("Meses de vida: " +  meses_vida) ;
-        System.out.println("Temperatura do Dia: " + temperatura + "m") ;
-        System.out.println("(%)IR no seu país: " + ir + "kg") ;
+        System.out.println("Temperatura do Dia: " + temperatura + "ºC") ;
+        System.out.println("(%)IR no seu país: " + ir + "%") ;
         System.out.println("Sexo(Masculino ou Feminino): " + sexo) ;
         System.out.println("Está ativo? " + ativo) ;
     }
