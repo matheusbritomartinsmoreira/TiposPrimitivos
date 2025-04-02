@@ -12,7 +12,7 @@ public class TiposPrimitivos {
     public static void main(String[] args) {
         // Declaração de variáveis primitivas
         byte ano = 25; // Armazena números pequenos (-128 a 127)
-        short salário = 2000; // Armazena valores um pouco maiores (-32.768 a 32.767)
+        short salario = 2000; // Armazena valores um pouco maiores (-32.768 a 32.767)
         int tentativas_login = 3; // Tipo mais comum para números inteios
         long meses_vida = 240L; // Necessário 'L' para valores longos
         
@@ -23,14 +23,14 @@ public class TiposPrimitivos {
         boolean ativo = true; // Armazena verdadeiro ou falso
         
         // Exibição dos valores
-        System.out.printIn("Ano atual: " + Ano) ;
-        System.out.printIn("Salário: " + salário) ;
-        System.out.printIn("Tentativas de Login: " + tentativas_login ) ;
-        System.out.printIn("Meses de vida: " +  meses_vida) ;
-        System.out.printIn("Temperatura do Dia: " + temperatura + "m") ;
-        System.out.printIn("(%)IR no seu país: " + ir + "kg") ;
-        System.out.printIn("Sexo(Masculino ou Feminino): " + sexo) ;
-        System.out.printIn("Está ativo? " + ativo) ;
+        System.out.println("Ano atual: " + ano) ;
+        System.out.println("Salário: " + salario) ;
+        System.out.println("Tentativas de Login: " + tentativas_login ) ;
+        System.out.println("Meses de vida: " +  meses_vida) ;
+        System.out.println("Temperatura do Dia: " + temperatura + "m") ;
+        System.out.println("(%)IR no seu país: " + ir + "kg") ;
+        System.out.println("Sexo(Masculino ou Feminino): " + sexo) ;
+        System.out.println("Está ativo? " + ativo) ;
     }
     
 }
